@@ -8,7 +8,7 @@ ACNH API is a **free RESTful API** for **furniture**, **critters**, **fossils**,
 
 This started for me as a little side project for me but ended up getting much attraction than I ever thought it would get (~3 000 000 requests per day).
 
-The API is free and without authentification to make it easy for anyone to start developing on a subject they like.
+The API is free and without authentication to make it easy for anyone to start developing on a subject they like.
 
 If any of the information on the website is wrong or outdated, you can either contact me on Discord (Alexis#8717) or make a pull request on this repository.
 
