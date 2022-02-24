@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//will need to import useState and useEffect later
+import React from "react";
+//unsure if i will need axios or yup
+//these are the 2nd gen components
+import Animal from "./AnimalCard/Animal";
+import Search from "./Search";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Search />
+      <Animal />
     </div>
   );
 }
 
 export default App;
+
+//i want the app color to be the same as the animals text bubble
