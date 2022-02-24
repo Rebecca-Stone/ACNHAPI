@@ -2,17 +2,15 @@
 import React from "react";
 //unsure if i will need axios or yup
 //these are the individual components
-import Header from "./AnimalCard/Header";
-import Search from "./Search";
-import Photo from "./AnimalCard/Photo";
-import Content from "./AnimalCard/Content";
-import Footer from "./AnimalCard/Footer";
+import Header from './Header'
+import Photo from "./Photo";
+import Content from "./Content";
+import Footer from "./Footer";
 
 function Animal() {
   return (
     <div>
       <Header />
-      <Search />
       <Photo />
       <Content />
       <Footer />
