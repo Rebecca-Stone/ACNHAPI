@@ -1,0 +1,15 @@
+the app will display animals from animal crossing
+
+i will possibly need to import these -
+- browserRouter, link, switch
+- yup
+
+
+a form to fill out to filter what kind of animals you want
+you could also search for the animals name
+
+thinking about making a schema with yup
+
+thinking about making tests with cypress
+
+i need to design a mock layout for everything before i start coding 
